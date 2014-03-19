@@ -19,6 +19,6 @@ get_header(); ?>
 <?php comments_template( '', true ); ?> 
     </article> <!-- end of content -->
     
-
+<?php get_sidebar(); ?>
   </div> <!-- end of main-content -->
 <?php get_footer(); ?>
