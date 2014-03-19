@@ -85,6 +85,10 @@ global $brightnews_options_db;
     if ($brightnews_options_db['brightnews_css'] == 'Turquoise' ){
 			wp_enqueue_style('style-turquoise', get_template_directory_uri().'/css/turquoise.css');
 		}
+		
+	if ($brightnews_options_db['brightnews_css'] == 'MyRightCareer' ){
+			wp_enqueue_style('style-MyRightCareer', get_template_directory_uri().'/css/MyRightCareer.css');
+		}
 }
 add_action( 'wp_enqueue_scripts', 'brightnews_css_include' );
 
