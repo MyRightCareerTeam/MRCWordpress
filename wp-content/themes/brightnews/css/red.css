@@ -1,0 +1,79 @@
+/* Color scheme Red
+----------------------------------------------- */
+body #footer,
+body .site-description-wrapper,
+body .highlight-text,
+body .entry-headline-content,
+body .sidebar-headline-wrapper {
+  background-color: #ff3f35;                 
+}
+body #main-navigation,
+body #slideshow-wrapper,
+body .footer-signature {
+  border-color: #ff3f35;                          
+}
+body .site-title-wrapper,
+body .footer-signature .footer-signature-content,
+body input[type="submit"],
+body input[type="reset"],
+body .custom-button,
+body #searchform .searchform-wrapper .send {
+  background-color: #8a1711;                 
+} 
+body a,
+body .post-entry .post-entry-headline a:hover,
+body .flexslider .slides li a:hover {
+  color: #8a1711;                 
+}
+body .site-description-wrapper,
+body .entry-headline-wrapper {
+  border-color: #ffd0ce;                                   
+}
+body .entry-headline,
+body .sidebar-widget .sidebar-headline {
+  border-top-color: #ffd0ce;                                   
+}
+body .sidebar-headline-wrapper {
+  border-bottom-color: #ffd0ce;                                   
+}
+body #footer {
+  -webkit-box-shadow: 0 -1px 0 #f12318;
+  -moz-box-shadow:    0 -1px 0 #f12318;
+  box-shadow:         0 -1px 0 #f12318;                 
+}
+body .site-description-wrapper {
+  -webkit-box-shadow: 0 1px 0 #f12318;
+  -moz-box-shadow:    0 1px 0 #f12318;
+  box-shadow:         0 1px 0 #f12318;                                   
+}
+body .entry-headline-content {
+  border-color: #f12318;                                 
+}
+body .sidebar-headline-wrapper {
+  border-top-color: #f12318;                                 
+}
+body #footer .footer-widget .footer-headline {
+  border-color: #ffa49f;                                                 
+}
+body .footer-signature { 
+  -webkit-box-shadow: 0 -1px 0 #550f0b;
+  -moz-box-shadow:    0 -1px 0 #550f0b;
+  box-shadow:         0 -1px 0 #550f0b;      
+}
+body #main-navigation a:hover,
+body #main-navigation :hover > a {
+  -webkit-box-shadow: 0 2px 0 #f42318;
+  -moz-box-shadow:    0 2px 0 #f42318;
+  box-shadow:         0 2px 0 #f42318;
+}
+body #main-navigation ul ul {
+  border-top-color: #f42318; 
+}
+#wrapper #page #header #main-navigation .current-menu-item > a,
+#wrapper #page #header #main-navigation .current-menu-ancestor > a,
+#wrapper #page #header #main-navigation .current_page_item > a,
+#wrapper #page #header #main-navigation .current-page-ancestor > a {
+  -webkit-box-shadow: 0 2px 0 #f42318;
+  -moz-box-shadow:    0 2px 0 #f42318;
+  box-shadow:         0 2px 0 #f42318;
+}

@@ -1,0 +1,81 @@
+/* Color scheme Orange
+----------------------------------------------- */
+body #footer,
+body .site-description-wrapper,
+body .highlight-text,
+body .entry-headline-content,
+body .sidebar-headline-wrapper {
+  background-color: #ffd535;                 
+}
+body #slideshow-wrapper,
+body .footer-signature {
+  border-color: #ffd535;                          
+}
+body .site-title-wrapper,
+body .footer-signature .footer-signature-content,
+body input[type="submit"],
+body input[type="reset"],
+body .custom-button,
+body #searchform .searchform-wrapper .send {
+  background-color: #805000;                 
+} 
+body a,
+body .post-entry .post-entry-headline a:hover,
+body .flexslider .slides li a:hover {
+  color: #805000;                 
+}
+body .site-description-wrapper,
+body .entry-headline-wrapper {
+  border-color: #ffe996;                                   
+}
+body .entry-headline,
+body .sidebar-widget .sidebar-headline {
+  border-top-color: #ffe996;                                   
+}
+body .sidebar-headline-wrapper {
+  border-bottom-color: #ffe996;                                   
+}
+body #footer {
+  -webkit-box-shadow: 0 -1px 0 #f1c418;
+  -moz-box-shadow:    0 -1px 0 #f1c418;
+  box-shadow:         0 -1px 0 #f1c418;                 
+}
+body .site-description-wrapper {
+  -webkit-box-shadow: 0 1px 0 #f1c418;
+  -moz-box-shadow:    0 1px 0 #f1c418;
+  box-shadow:         0 1px 0 #f1c418;                                   
+}
+body .entry-headline-content {
+  border-color: #f1c418;                                 
+}
+body .sidebar-headline-wrapper {
+  border-top-color: #f1c418;                                 
+}
+body #footer .footer-widget .footer-headline {
+  border-color: #ffeb9f;                                                 
+}
+body .footer-signature { 
+  -webkit-box-shadow: 0 -1px 0 #55460b;
+  -moz-box-shadow:    0 -1px 0 #55460b;
+  box-shadow:         0 -1px 0 #55460b;      
+}
+body #main-navigation a:hover,
+body #main-navigation :hover > a {
+  -webkit-box-shadow: 0 2px 0 #edc017;
+  -moz-box-shadow:    0 2px 0 #edc017;
+  box-shadow:         0 2px 0 #edc017;
+}
+body #main-navigation ul ul {
+  border-top-color: #edc017; 
+}
+#wrapper #page #header #main-navigation .current-menu-item > a,
+#wrapper #page #header #main-navigation .current-menu-ancestor > a,
+#wrapper #page #header #main-navigation .current_page_item > a,
+#wrapper #page #header #main-navigation .current-page-ancestor > a {
+  -webkit-box-shadow: 0 2px 0 #edc017;
+  -moz-box-shadow:    0 2px 0 #edc017;
+  box-shadow:         0 2px 0 #edc017;
+}
+body #main-navigation {
+  border-color: #f7cc25;                          
+}

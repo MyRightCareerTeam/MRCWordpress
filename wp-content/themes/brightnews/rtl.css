@@ -1,0 +1,287 @@
+/*
+Theme Name: BrightNews
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+*/
+
+p, ul, ol, li, dl, address {
+  text-align: right;
+}
+ul {
+  margin-right: 16px;   
+}
+ol {
+  margin-right: 20px;
+}
+table, td, th {
+  text-align: right;
+}
+blockquote, q { 
+  border-left: none;
+  border-right: 1px solid #d6d6d6;
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+
+/* basic structure
+-------------------------------------------------------------- */
+
+#content {
+  float: right;        
+}
+#wrapper .full-width {
+  float: left;                    
+}
+#sidebar {
+  float: left;
+  margin-left: 30px;
+  margin-right: 0;        
+}
+.scroll-top {
+  left: 20px;           
+}
+
+
+/* header
+-------------------------------------------------------------- */
+
+.site-title-wrapper,
+.site-description-wrapper { 
+  margin: 0 30px 0 0;      
+}
+.header-logo {
+  margin: 0 30px 0 0;            
+}
+.banner {
+  left: 30px;
+  right: auto;      
+}
+.header-icons {
+  left: 30px;
+  right: auto;              
+}
+
+/* menus */
+#main-navigation ul,
+#top-navigation ul {
+  border-left: 1px solid #8a8a8a;
+  border-right: 1px solid #000000;
+  float: right;
+  margin: 0 30px 0 0;
+}
+#top-navigation ul {
+  border: none;
+  text-align: right;                   
+}
+#main-navigation ul li,
+#top-navigation ul li {
+  float: right;
+}
+#top-navigation ul li {
+  margin-left: 30px;
+  margin-right: 0; 
+}
+#top-navigation ul ul li {
+  margin-left: 0;
+}
+#main-navigation a,
+#main-navigation a:visited,
+#top-navigation a,
+#top-navigation a:visited {
+  border-right: 1px solid #8a8a8a;
+  border-left: 1px solid #000000;
+  float: right;
+}
+#top-navigation a,
+#top-navigation a:visited {
+  border: none;                          
+}
+#wrapper #header #main-navigation ul ul a,
+#wrapper #header #main-navigation ul ul a:visited,
+#wrapper #header #top-navigation ul ul a,
+#wrapper #header #top-navigation ul ul a:visited {
+  text-align: right;
+}
+#main-navigation ul ul,
+#top-navigation ul ul {
+  left: auto;
+  right: 0;
+}
+#main-navigation ul ul ul,
+#top-navigation ul ul ul {
+  left: auto;
+  right: 250px;
+}
+
+
+/* main content
+-------------------------------------------------------------- */
+
+.post-info .post-info-date,
+.post-info .post-info-author,
+.post-info .post-info-category,
+.post-info .post-info-tags,
+.post-info .post-info-comments {
+  background-position: right top;              
+}
+.post-info .post-info-comments { 
+  padding-right: 20px;               
+}
+
+/* default post entry */
+.post-thumbnail {
+  float: right;
+  margin-left: 25px;
+  margin-right: 0;               
+}
+#content .post-entry .post-category,
+#content .post-entry .post-tags {
+  float: right;                      
+}
+#content .post-entry .post-tags {
+  padding: 0 5% 0 0;
+  text-align: left;
+  width: 45%;                           
+}
+#content .post-entry .post-category .post-info-category,
+#content .post-entry .post-tags .post-info-tags {
+  padding-right: 20px;                                                        
+}
+
+/* post entry - column */
+.post-entry-column-wrapper {
+  float: left;
+  width: 50%;                         
+}
+.post-entry-column-first {
+  float: right;                        
+}
+.post-entry-column-first .post-entry-content {
+  margin-left: 30px;  
+  margin-right: 0;              
+}
+.post-entry-column .post-thumbnail {
+  margin: 0 0 0 14px;              
+}
+
+/* post entry - grid */
+.post-entry-grid-first .post-thumbnail {
+  margin: 0 0 0 25px;                
+}
+.post-entry-grid .post-thumbnail {
+  margin: 0 0 0 14px;              
+}
+
+/* post entry - list */
+#content .home-list-posts ul {
+  float: right;                             
+}
+
+/* post entry - slider */
+.home-slider-posts ul,
+.wrapper-related-posts ul {
+  margin-right: 0;                      
+}
+.wrapper-related-posts .unordered-list {
+  margin: -10px 16px 0 0;                      
+}
+.flexslider .flex-direction-nav {
+  left: 0;
+  right: auto;                               
+}
+.flexslider .flex-direction-nav li {
+  float: right;
+  margin-left: 0;
+  margin-right: 2px;                                   
+}
+.flexslider .slides li {
+  float: right !important;                       
+}
+
+
+/* sidebar
+-------------------------------------------------------------- */
+
+.sidebar-widget ul li {
+  background: right top no-repeat url(images/square.png);
+  padding-left: 0;
+  padding-right: 14px;                       
+} 
+
+
+/* default widgets
+-------------------------------------------------------------- */
+
+#wp-calendar #prev {
+  text-align: right;                   
+}
+#wp-calendar #next {
+  text-align: left;                   
+}
+.social-item p {
+  float: right;             
+}
+.social-item a img {
+  float: right;
+  margin-left: 7px;
+  margin-right: 0;                   
+}
+
+
+/* form fields
+-------------------------------------------------------------- */
+
+#searchform .searchform-wrapper #s {
+  padding: 5px 3% 5px 0;
+  right: 0;             
+}
+#searchform .searchform-wrapper .send {
+  left: 0;
+  right: auto;
+}
+
+
+/* comments area
+-------------------------------------------------------------- */
+
+#comments ol {
+  margin-right: 0;             
+}
+#comments .avatar,
+#comments .fn {
+  float: right;
+  margin: 0 0 0 6px;                  
+}
+#comments .fn {
+  margin: 0 0 0 3px;             
+}
+#comments time,
+#comments .edit-link {
+  float: left;             
+}
+#comments #comment-nav-below {
+  text-align: right;                  
+}
+
+
+/* media queries
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 990px) {
+  #wrapper #top-navigation {
+    padding: 0 5% 0 0;                   
+}
+  #wrapper #sidebar {
+    float: right;                 
+}
+  .js #header .selectnav {
+    float: right;                         
+}
+  .js #header #main-navigation .selectnav {
+    margin: 3px 5% 0 0;
+}
+  #wrapper #header .header-icons {
+    left: 5%;
+    right: auto;                                 
+}
+}

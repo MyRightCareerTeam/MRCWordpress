@@ -1,0 +1,79 @@
+/* Color scheme Turquoise
+----------------------------------------------- */
+body #footer,
+body .site-description-wrapper,
+body .highlight-text,
+body .entry-headline-content,
+body .sidebar-headline-wrapper {
+  background-color: #40daca;                 
+}
+body #main-navigation,
+body #slideshow-wrapper,
+body .footer-signature {
+  border-color: #40daca;                          
+}
+body .site-title-wrapper,
+body .footer-signature .footer-signature-content,
+body input[type="submit"],
+body input[type="reset"],
+body .custom-button,
+body #searchform .searchform-wrapper .send {
+  background-color: #04766a;                 
+} 
+body a,
+body .post-entry .post-entry-headline a:hover,
+body .flexslider .slides li a:hover {
+  color: #04766a;                 
+}
+body .site-description-wrapper,
+body .entry-headline-wrapper {
+  border-color: #d4fffa;                                   
+}
+body .entry-headline,
+body .sidebar-widget .sidebar-headline {
+  border-top-color: #d4fffa;                                   
+}
+body .sidebar-headline-wrapper {
+  border-bottom-color: #d4fffa;                                   
+}
+body #footer {
+  -webkit-box-shadow: 0 -1px 0 #0bb5a3;
+  -moz-box-shadow:    0 -1px 0 #0bb5a3;
+  box-shadow:         0 -1px 0 #0bb5a3;                 
+}
+body .site-description-wrapper {
+  -webkit-box-shadow: 0 1px 0 #0bb5a3;
+  -moz-box-shadow:    0 1px 0 #0bb5a3;
+  box-shadow:         0 1px 0 #0bb5a3;                                   
+}
+body .entry-headline-content {
+  border-color: #0bb5a3;                                 
+}
+body .sidebar-headline-wrapper {
+  border-top-color: #0bb5a3;                                 
+}
+body #footer .footer-widget .footer-headline {
+  border-color: #a9ede5;                                                 
+}
+body .footer-signature { 
+  -webkit-box-shadow: 0 -1px 0 #04766a;
+  -moz-box-shadow:    0 -1px 0 #04766a;
+  box-shadow:         0 -1px 0 #04766a;      
+}
+body #main-navigation a:hover,
+body #main-navigation :hover > a {
+  -webkit-box-shadow: 0 2px 0 #36b8aa;
+  -moz-box-shadow:    0 2px 0 #36b8aa;
+  box-shadow:         0 2px 0 #36b8aa;
+}
+body #main-navigation ul ul {
+  border-top-color: #36b8aa; 
+}
+#wrapper #page #header #main-navigation .current-menu-item > a,
+#wrapper #page #header #main-navigation .current-menu-ancestor > a,
+#wrapper #page #header #main-navigation .current_page_item > a,
+#wrapper #page #header #main-navigation .current-page-ancestor > a {
+  -webkit-box-shadow: 0 2px 0 #36b8aa;
+  -moz-box-shadow:    0 2px 0 #36b8aa;
+  box-shadow:         0 2px 0 #36b8aa;
+}
