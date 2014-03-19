@@ -1,0 +1,79 @@
+/* Color scheme Brown
+----------------------------------------------- */
+body #footer,
+body .site-description-wrapper,
+body .highlight-text,
+body .entry-headline-content,
+body .sidebar-headline-wrapper {
+  background-color: #cd853f;                 
+}
+body #main-navigation,
+body #slideshow-wrapper,
+body .footer-signature {
+  border-color: #cd853f;                          
+}
+body .site-title-wrapper,
+body .footer-signature .footer-signature-content,
+body input[type="submit"],
+body input[type="reset"],
+body .custom-button,
+body #searchform .searchform-wrapper .send {
+  background-color: #754312;                 
+} 
+body a,
+body .post-entry .post-entry-headline a:hover,
+body .flexslider .slides li a:hover {
+  color: #754312;                 
+}
+body .site-description-wrapper,
+body .entry-headline-wrapper {
+  border-color: #fadfc4;                                   
+}
+body .entry-headline,
+body .sidebar-widget .sidebar-headline {
+  border-top-color: #fadfc4;                                   
+}
+body .sidebar-headline-wrapper {
+  border-bottom-color: #fadfc4;                                   
+}
+body #footer {
+  -webkit-box-shadow: 0 -1px 0 #b07336;
+  -moz-box-shadow:    0 -1px 0 #b07336;
+  box-shadow:         0 -1px 0 #b07336;                 
+}
+body .site-description-wrapper {
+  -webkit-box-shadow: 0 1px 0 #b07336;
+  -moz-box-shadow:    0 1px 0 #b07336;
+  box-shadow:         0 1px 0 #b07336;                                   
+}
+body .entry-headline-content {
+  border-color: #b07336;                                 
+}
+body .sidebar-headline-wrapper {
+  border-top-color: #b07336;                                 
+}
+body #footer .footer-widget .footer-headline {
+  border-color: #f3cfad;                                                 
+}
+body .footer-signature { 
+  -webkit-box-shadow: 0 -1px 0 #562e07;
+  -moz-box-shadow:    0 -1px 0 #562e07;
+  box-shadow:         0 -1px 0 #562e07;      
+}
+body #main-navigation a:hover,
+body #main-navigation :hover > a {
+  -webkit-box-shadow: 0 2px 0 #a66c33;
+  -moz-box-shadow:    0 2px 0 #a66c33;
+  box-shadow:         0 2px 0 #a66c33;
+}
+body #main-navigation ul ul {
+  border-top-color: #a66c33; 
+}
+#wrapper #page #header #main-navigation .current-menu-item > a,
+#wrapper #page #header #main-navigation .current-menu-ancestor > a,
+#wrapper #page #header #main-navigation .current_page_item > a,
+#wrapper #page #header #main-navigation .current-page-ancestor > a {
+  -webkit-box-shadow: 0 2px 0 #a66c33;
+  -moz-box-shadow:    0 2px 0 #a66c33;
+  box-shadow:         0 2px 0 #a66c33;
+}

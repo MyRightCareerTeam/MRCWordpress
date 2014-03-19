@@ -1,0 +1,79 @@
+Changelog Legend:
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+----
+
+(14/03/2014) - Update - Version 1.1.0
+
+[+] Added Russian language localization.
+[*] Edited typography of headlines h1 - h6.
+[*] Edited the query function for Search results.
+
+----
+
+(12/03/2014) - Update - Version 1.0.5
+
+[+] Added the option for selecting between Content/Excerpt displaying on Archive pages.
+[*] Replaced the custom new queries for WordPress core queries on Archive pages.
+[*] Edited the query function in functions/fe/widget-posts-default.php.
+
+----
+
+(04/03/2014) - Update - Version 1.0.4
+
+[+] Added 2 new default color schemes (Brown and Turquoise).
+
+----
+
+(18/02/2014) - Update - Version 1.0.3
+
+[*] Edited displaying of footer widget areas.
+
+----
+
+(13/02/2014) - Update - Version 1.0.2.3
+
+[*] Changed the function for selecting between "Logo/Site Title" in header.
+
+----
+
+(12/02/2014) - Update - Version 1.0.2.2
+
+[+] Added escaping of output values.
+[*] Changed the default value of "Display Logo/Site Title in header" Theme Option to "Logo" instead of "Site Title".
+
+----
+
+(12/02/2014) - Update - Version 1.0.2.1
+
+[+] Added support for custom header image (instead of the initial custom Logo Settings).
+[*] Edited validating functions of Theme Options.
+[*] Changed the screenshot.png.
+[*] Changed the source of Breadcrumb NavXT plugin to the WordPress Repository.
+[x] Removed the Cyclone Slider 2 bundled plugin.
+
+----
+
+(08/02/2014) - Update - Version 1.0.2
+
+[+] Added validating functions and nonce checking of Theme Options.
+[*] Edited enqueue function for Theme Options framework CSS.
+[*] Edited French (fr_FR) and Spanish (es_ES) translations.
+[*] Edited the function for setting a background color.
+[!] Edited the function for activating translations of the Cyclone Slider 2 bundled plugin.
+
+----
+
+(18/01/2014) - The initial public release - Version 1.0.1
+
+[!] Edited displaying of the background-patterns for Headline boxes.
+
+----
+
+(17/01/2014) - The initial testing release - Version 1.0.0
