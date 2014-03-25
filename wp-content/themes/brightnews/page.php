@@ -5,7 +5,6 @@
  * @since BrightNews 1.0.0
 */
 get_header(); ?>
-  
   <div id="main-content">
     <article id="content">
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -15,10 +14,15 @@ get_header(); ?>
       <div class="entry-content">
 <?php the_content( 'Continue reading' ); ?>
       </div>
+      <div id='editor'>
+      	<script type="text/javascript" src="http://localhost/MRCWordpress/wp-content/plugins/ckeditor/ckeditor.js"></script>
+		<script type="text/javascript">CKEDITOR.replace(document.getElementById('editor'));</script>
+	</div>
+
 <?php endwhile; endif; ?>
 <?php comments_template( '', true ); ?> 
     </article> <!-- end of content -->
-    
+
 <?php get_sidebar(); ?>
   </div> <!-- end of main-content -->
 <?php get_footer(); ?>

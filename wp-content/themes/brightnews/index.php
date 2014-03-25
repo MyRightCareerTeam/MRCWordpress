@@ -24,7 +24,7 @@ get_header(); ?>
     </section>
 <?php } ?>
 <?php if ( dynamic_sidebar( 'sidebar-7' ) ) : else : ?>
-<?php endif; ?>      
+<?php endif; ?>    
   </div> <!-- end of content -->   
 <?php get_sidebar(); ?>
 </div> <!-- end of main-content -->  
