@@ -14,15 +14,19 @@ get_header(); ?>
       <div class="entry-content">
 <?php the_content( 'Continue reading' ); ?>
       </div>
-      <div id='editor'>
-      	<script type="text/javascript" src="http://localhost/MRCWordpress/wp-content/plugins/ckeditor/ckeditor.js"></script>
-		<script type="text/javascript">CKEDITOR.replace(document.getElementById('editor'));</script>
-	</div>
+      
 
 <?php endwhile; endif; ?>
 <?php comments_template( '', true ); ?> 
     </article> <!-- end of content -->
 
 <?php get_sidebar(); ?>
+
   </div> <!-- end of main-content -->
+  
+	<div id='editor'>
+      	<script type="text/javascript" src="wp-content/plugins/ckeditor/ckeditor.js"></script>
+		<div id='inner-editor'></div>
+		<script type="text/javascript">CKEDITOR.replace(document.getElementById('inner-editor'));</script>
+	</div>
 <?php get_footer(); ?>
