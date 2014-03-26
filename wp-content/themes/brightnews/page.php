@@ -15,9 +15,9 @@ get_header(); ?>
 <?php the_content( 'Continue reading' ); ?>
       </div>
       <div id='editor'>
-      	<script type="text/javascript" src="http://localhost/MRCWordpress/wp-content/plugins/ckeditor/ckeditor.js"></script>
-		<script type="text/javascript">CKEDITOR.replace(document.getElementById('editor'));</script>
-	</div>
+        <script type="text/javascript">CKEDITOR.replace(document.getElementById('editor'))</script>
+	   </div>
+     <button onclick="saveEditor()">Save Document</button>
 
 <?php endwhile; endif; ?>
 <?php comments_template( '', true ); ?> 
