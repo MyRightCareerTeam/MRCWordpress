@@ -1,4 +1,4 @@
 function saveEditor()
 {
-	alert(CKEDITOR.instances.editor.getData());
+	alert(CKEDITOR.instances.inner_editor.getData());
 };
