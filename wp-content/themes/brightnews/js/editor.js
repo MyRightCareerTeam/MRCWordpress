@@ -19,8 +19,7 @@ function saveEditor()
     //		CKEDITOR.instances.inner_editor.setData(xmlhttp.responseText);
     //	}
   	//}
-  	var text = CKEDITOR.instances.inner_editor.getData();
-	xmlhttp.open("POST","wp-content/themes/brightnews/post-text-wpdb.php?text="+text+"&page_id=1438&user_id=2147483647",true);
+	xmlhttp.open("POST","wp-content/themes/brightnews/post-text-wpdb.php?text="+encodeURIComponent(CKEDITOR.instances.inner_editor.getData())+"&page_id=1438&user_id=2147483647",true);
 	xmlhttp.send();
 	console.log(xmlhttp);
 };
