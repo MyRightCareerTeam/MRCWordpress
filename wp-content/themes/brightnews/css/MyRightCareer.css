@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /* Color scheme MyRightCareer
+=======
+/* Color scheme Red
+>>>>>>> 898d5414aaa70382968ba73d5f4ba75049ccbb6c
 ----------------------------------------------- */
 body #footer,
 body .site-description-wrapper,
@@ -10,7 +14,11 @@ body .sidebar-headline-wrapper {
 body #main-navigation,
 body #slideshow-wrapper,
 body .footer-signature {
+<<<<<<< HEAD
   border-color: #ff3f35;                          
+=======
+  border-color: blue;                          
+>>>>>>> 898d5414aaa70382968ba73d5f4ba75049ccbb6c
 }
 body .site-title-wrapper,
 body .footer-signature .footer-signature-content,

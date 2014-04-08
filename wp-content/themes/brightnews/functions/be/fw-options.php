@@ -351,7 +351,11 @@ array( "name" => "tab_content_1",
               'c' => 'Orange',
               'd' => 'Red',
               'e' => 'Turquoise',
+<<<<<<< HEAD
 			  'f' => 'MyRightCareer',),
+=======
+			  'f' => 'MyRightCareer'),
+>>>>>>> 898d5414aaa70382968ba73d5f4ba75049ccbb6c
 		"type" => "select"),
     
   array( "name" => "Content/Excerpt Displaying",

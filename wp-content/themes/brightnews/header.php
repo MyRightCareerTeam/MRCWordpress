@@ -19,6 +19,8 @@
   <meta charset="<?php bloginfo( 'charset' ); ?>" /> 
   <meta name="viewport" content="width=device-width, minimumscale=1.0, maximum-scale=1.0" />  
   <title><?php wp_title( '|', true, 'right' ); ?></title>
+  <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/ckeditor/ckeditor.js"></script>
+   <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/editor.js"></script>
 	<!--[if lt IE 9]>
 	<script src="<?php echo esc_url(get_template_directory_uri()); ?>/js/html5.js"></script>
 	<![endif]-->
