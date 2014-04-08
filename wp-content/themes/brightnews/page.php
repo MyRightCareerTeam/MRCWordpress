@@ -26,7 +26,6 @@ get_header(); ?>
 	<div id='editor'>
 		<div id='inner_editor'></div>
 		<script type="text/javascript">CKEDITOR.replace(document.getElementById('inner_editor'));</script>
-    <button type="button" onclick="loadData()">Request data</button>
     <button onclick="saveEditor()">Save Document</button>
 	</div>
 <?php get_footer(); ?>

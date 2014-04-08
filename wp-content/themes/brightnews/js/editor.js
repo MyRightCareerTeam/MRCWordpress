@@ -1,3 +1,6 @@
+window.onload = function(){
+	loadData();
+}
 function saveEditor()
 {
 	if (window.XMLHttpRequest)
