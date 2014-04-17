@@ -286,16 +286,21 @@ body {
   width: 260px;         
 }
 
+#main-container {
+
+  border-width: 5px;
+  border-color: blue;
+}
+
 #editor {
-	border-style: solid;
-	border-width: 5px;
-	border-color: red;
-	height: 50%;
-	width: 100%;
-	max-width: 1500px;
-	bottom: 5px;
-	position: fixed;
-	float: left;
+  border-style: solid;
+  border-width: 5px;
+  border-color: red;
+  height: 50%;
+  width: 100%;
+  bottom: 5px;
+  position: fixed;
+  float: left;
 }
 #inner-editor {
 	height: 100%;

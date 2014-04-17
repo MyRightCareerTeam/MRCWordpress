@@ -1,31 +1,22 @@
-<?php
-/**
- * The page template file.
- * @package BrightNews
- * @since BrightNews 1.0.0
-*/
-get_header(); ?>
-  <div id="main-content">
-    <article id="content">
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-<?php brightnews_get_breadcrumb(); ?>
-      <h1 class="main-headline"><?php the_title(); ?></h1>
-<?php brightnews_get_display_image_page(); ?>
-      <div class="entry-content">
-<?php the_content( 'Continue reading' ); ?>
-      </div>
-     
-<?php endwhile; endif; ?>
-<?php comments_template( '', true ); ?> 
-    </article> <!-- end of content -->
-
-<?php get_sidebar(); ?>
-
-  </div> <!-- end of main-content -->
+<?php?><!DOCTYPE html>
+<html>
+  <head>
+    <title>PHP Test</title>
+    <link rel="stylesheet" type="text/css" href="/MRCWordpress/wp-content/themes/brightnews/css/custom.css">
+    <script src="/MRCWordpress/wp-content/themes/brightnews/js/mobile.js"></script>
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <?php echo '<p>Hello World</p>';?>
   
-	<div id='editor'>
-		<div id='inner_editor'></div>
-		<script type="text/javascript">CKEDITOR.replace(document.getElementById('inner_editor'));</script>
-    <button onclick="saveEditor(<?php global $post; echo $post->ID; ?>)">Save Document</button>
-	</div>
-<?php get_footer(); ?>
+      <div id="content-pane">
+        <div id="content"></div>
+        <div id="fill-pane"></div>
+      </div>
+      <div id="control-pane">
+        <div id="editor"></div>
+        <div id="left-control-pane"></div>
+        <div id="right-control-pane"></div>
+      </div>
+  </body>
+</html>
