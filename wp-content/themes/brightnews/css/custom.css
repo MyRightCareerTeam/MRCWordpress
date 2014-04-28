@@ -1,0 +1,71 @@
+#container {
+	width: 500px;
+	height: 500px;
+	position: relative;
+	border-color: blue;
+	border-width: 5px;
+	border-style: double;
+}
+
+#content-pane, 
+#control-pane {
+	top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+#control-pane{
+	position: fixed;
+	width: 200%;
+	height: 100%;
+	left: -50%;
+	border-color: red;
+	border-width: 1px;
+	border-style: dashed;
+	z-index: 2;
+	overflow: hidden;
+}
+
+#content-pane {
+	position: absolute;
+	width: 50%;
+	height: 300%;
+	left: 0;
+	border-color: green;
+	border-width: 5px;
+	border-style: dashed;
+}
+
+#left-control-pane,
+#right-control-pane{
+	position: absolute;
+	margin: auto;
+	background-color:blue;
+	z-index: 3;
+	width: 26%;
+	height: 100%;
+	top: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+#left-control-pane{	
+    left: 0;
+}
+
+#right-control-pane{
+    right: 0;
+}
+
+#editor{
+    position: absolute;
+	margin: auto;
+	background-color:red;
+	z-index: 3;
+	width: 50%;
+	height: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
