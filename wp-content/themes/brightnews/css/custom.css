@@ -37,12 +37,13 @@
 	border-style: dashed;
 }
 
+
 #left-control-pane,
 #right-control-pane{
 	position: absolute;
 	margin: auto;
-	background-color:blue;
 	z-index: 3;
+	background-color:yellow;
 	width: 26%;
 	height: 100%;
 	top: 0;
@@ -58,6 +59,34 @@
     right: 0;
 }
 
+#left-menu{
+	background-color:blue;
+	height: 100%;
+	width: 95%;
+	float: left;
+}
+
+#slide-left{
+	background-color:orange;
+	height: 100px;
+	width: 5%;
+	float: right;
+}
+
+#right-menu{
+	background-color:blue;
+	height: 100%;
+	width: 95%;
+	float: right;
+}
+
+#slide-right{
+	background-color:orange;
+	height: 100px;
+	width: 5%;
+	float: left;
+}
+
 #editor{
     position: absolute;
 	margin: auto;
@@ -68,4 +97,5 @@
     bottom: 0;
     left: 0;
     right: 0;
+    resize: horizontal;
 }
