@@ -7,11 +7,9 @@
     <meta name="viewport" content="width=device-width">
   </head>
   <body>
-    <?php echo '<p>Hello World</p>';?>
-  
       <div id="content-pane">
-        <div id="content"></div>
-        <div id="fill-pane"></div>
+        <div id="content">
+          <?php echo '<p>Hello World</p>';?></div>
       </div>
       <div id="control-pane">
         <div id="menu"></div>

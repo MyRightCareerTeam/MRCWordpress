@@ -9,7 +9,6 @@
 
 #content-pane, 
 #control-pane {
-	top: 0;
     bottom: 0;
     right: 0;
     margin: auto;
@@ -17,6 +16,7 @@
 
 #control-pane{
 	position: fixed;
+	top: 0;
 	width: 200%;
 	height: 100%;
 	left: -50%;
@@ -29,7 +29,8 @@
 
 #content-pane {
 	position: absolute;
-	width: 50%;
+	top: 215%;
+	width: 94%;
 	height: 300%;
 	left: 0;
 	border-color: green;
@@ -37,13 +38,23 @@
 	border-style: dashed;
 }
 
+#content{
+	height: 100%;
+	width: 100%;
+}
+
+#menu{
+	background-color: purple;
+	height: 10%;
+	width: 100%;
+	top: 0;
+}
 
 #left-control-pane,
 #right-control-pane{
 	position: absolute;
 	margin: auto;
 	z-index: 3;
-	background-color:yellow;
 	width: 26%;
 	height: 100%;
 	top: 0;
@@ -59,31 +70,36 @@
     right: 0;
 }
 
-#left-menu{
-	background-color:blue;
-	height: 100%;
-	width: 95%;
-	float: left;
-}
-
-#slide-left{
-	background-color:orange;
-	height: 100px;
-	width: 5%;
-	float: right;
-}
-
+#left-menu,
 #right-menu{
 	background-color:blue;
 	height: 100%;
 	width: 95%;
+}
+
+#left-menu{
+	float: left;
+}
+
+#right-menu{
 	float: right;
 }
 
+#slide-left,
 #slide-right{
 	background-color:orange;
-	height: 100px;
+	height: 10%;
 	width: 5%;
+	position: relative;
+	top: 45%;
+}
+
+#slide-left{
+	float: right;
+	
+}
+
+#slide-right{
 	float: left;
 }
 
