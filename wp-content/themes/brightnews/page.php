@@ -14,9 +14,16 @@
         <div id="fill-pane"></div>
       </div>
       <div id="control-pane">
+        <div id="menu"></div>
         <div id="editor"></div>
-        <div id="left-control-pane"></div>
-        <div id="right-control-pane"></div>
-      </div>
+        <div id="left-control-pane">
+          <div id="slide-left"></div>
+          <div id="left-menu"></div>
+        </div>
+        <div id="right-control-pane">
+          <div id="slide-right"></div>
+          <div id="right-menu"></div>
+        </div>
+    </div>
   </body>
 </html>
