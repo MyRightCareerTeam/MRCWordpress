@@ -13,7 +13,10 @@
       </div>
       <div id="control-pane">
         <div id="menu"></div>
-        <div id="editor"></div>
+        <div id="editor">
+          <div id="editor-button"></div>
+          <div id="editor-container"></div>
+        </div>
         <div id="left-control-pane">
           <div id="slide-left" onClick="show_left();"></div>
           <div id="left-menu"></div>
