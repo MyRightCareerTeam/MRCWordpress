@@ -3,28 +3,24 @@ var transitionDurations = ["transitionDuration", "msTransitionDuration", "webkit
 var width = window.screen.width;
 
 function show_left(){
-	console.debug("show_left");
 	moveMenu("#left-menu", width);
 	
 	document.getElementById("slide-left").onclick = hide_left;
 }
 
 function show_right() {
-	console.debug("show_right");
 	moveMenu("#right-menu", -width);
 	
 	document.getElementById("slide-right").onclick = hide_right;
 }
 
 function hide_left(){
-	console.debug("hide_left");
 	moveMenu("#left-menu", 0);
 	
 	document.getElementById("slide-left").onclick = show_left;
 }
 
 function hide_right() {
-	console.debug("hide_right");
 	moveMenu("#right-menu", 0);
 	
 	document.getElementById("slide-right").onclick = show_right;
