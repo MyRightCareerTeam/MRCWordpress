@@ -2,8 +2,10 @@
 <html>
   <head>
     <title>PHP Test</title>
-    <link rel="stylesheet" type="text/css" href="/MRCWordpress/wp-content/themes/brightnews/css/custom.css">
-    <script type="text/javascript" src="/MRCWordpress/wp-content/themes/brightnews/js/mobile.js"></script>
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/custom.css">
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/mobile.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/ckeditor/ckeditor.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/editor.js"></script>
     <meta name="viewport" content="width=device-width">
   </head>
   <body>
@@ -15,7 +17,10 @@
         <div id="menu"></div>
         <div id="editor">
           <div id="editor-button"></div>
-          <div id="editor-container"></div>
+          <div id="editor-container">
+          <div id="inner_editor"></div>  
+            <script type="text/javascript">CKEDITOR.replace(document.getElementById('inner_editor'));</script>
+            <button onclick="saveEditor(<?php global $post; echo $post->ID; ?>)">Save Document</button></div>
         </div>
         <div id="left-control-pane">
           <div id="slide-left" onClick="show_left();"></div>
