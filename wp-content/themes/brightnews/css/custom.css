@@ -17,9 +17,9 @@
 #control-pane{
 	position: fixed;
 	top: 0;
-	width: 200%;
+	width: 300%;
 	height: 100%;
-	left: -50%;
+	left: -100%;
 	border-color: red;
 	border-width: 1px;
 	border-style: dashed;
@@ -53,21 +53,20 @@
 #left-control-pane,
 #right-control-pane{
 	position: absolute;
-	margin: auto;
+	margin:auto;
 	z-index: 3;
-	width: 26%;
+	width: 33%;
 	height: 100%;
 	top: 0;
     bottom: 0;
-    overflow: hidden;
 }
 
 #left-control-pane{	
-    left: 0;
+    left: 1.65%;
 }
 
 #right-control-pane{
-    right: 0;
+    right: 1.65%;
 }
 
 #left-menu,
@@ -76,7 +75,6 @@
 	height: 100%;
 	width: 95%;
 	z-index: 4;
-
 }
 
 #left-menu{
@@ -110,13 +108,13 @@
 
 #editor{
     position: absolute;
-	margin: auto;
+	z-index: 3;
+	width: 33%;
+	height: 50%;
 	background-color: #4069E6;
 	z-index: 3;
-	width: 50%;
-	height: 45%;
     bottom: 0;
-    left: 0;
+    left: 33%;
     right: 0;
     resize: horizontal;
 }
