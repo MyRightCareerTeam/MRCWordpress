@@ -73,9 +73,6 @@
 #left-menu,
 #right-menu{
 	background-color:#4069E6;
-	border-color: black;
-	border-width: 2px;
-	border-style: solid;
 	height: 100%;
 	width: 95%;
 	z-index: 4;
