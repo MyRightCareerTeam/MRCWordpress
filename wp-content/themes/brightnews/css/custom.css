@@ -127,13 +127,29 @@
 }
 
 #editor-button{
-	background-color:#1C2F66;
+	background-color: gray;
 	height: 5%;
 	width: 10%;
 	position: relative;
 	left: 45%;
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
+}
+
+#slide-down{
+	background-color: #1C2F66;
+	height: 100%;
+	width: 49%;
+	float: left;
+	border-top-left-radius: 10px;
+}
+
+#slide-up{
+	background-color: #1C2F66;
+	height: 100%;
+	width: 49%;
+	float: right;
+	border-top-right-radius: 10px;
 }
 
 

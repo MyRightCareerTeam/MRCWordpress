@@ -1,7 +1,7 @@
 <?php?><!DOCTYPE html>
 <html>
   <head>
-    <title>PHP Test</title>
+    <title>MyRightCareer</title>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/custom.css">
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/mobile.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/ckeditor/ckeditor.js"></script>
@@ -16,10 +16,13 @@
       <div id="control-pane">
         <div id="menu"></div>
         <div id="editor">
-          <div id="editor-button"></div>
+          <div id="editor-button">
+			<div id="slide-down" onClick="editor_down();"></div>
+			<div id="slide-up" onClick="editor_up();"></div>
+		  </div>
           <div id="editor-container">
-          <div id="inner_editor"></div>  
-            <script type="text/javascript">CKEDITOR.replace(document.getElementById('inner_editor'));</script>
+          <div id="inner-editor"></div>  
+            <script type="text/javascript">CKEDITOR.replace(document.getElementById('inner-editor'));</script>
             <button onclick="saveEditor(<?php global $post; echo $post->ID; ?>)">Save Document</button></div>
         </div>
         <div id="left-control-pane">
