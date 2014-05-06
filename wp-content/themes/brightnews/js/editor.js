@@ -40,7 +40,7 @@ function loadData()
   	{
   		if (xmlhttp.readyState==4 && xmlhttp.status==200)
     	{
-    		CKEDITOR.instances.inner_editor.setData(xmlhttp.responseText);
+    		CKEDITOR.instances.innerEditor.setData(xmlhttp.responseText);
     	}
   	}
 	xmlhttp.open("GET","wp-content/themes/brightnews/get-text-wpdb.php?page_id=1438&user_id=2147483647",true);

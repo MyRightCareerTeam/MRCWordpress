@@ -116,7 +116,6 @@
     bottom: 0;
     left: 33%;
     right: 0;
-    resize: horizontal;
 }
 
 #editor-container{
@@ -128,7 +127,7 @@
 
 #editor-button{
 	background-color: gray;
-	height: 5%;
+	height: 30px;
 	width: 10%;
 	position: relative;
 	left: 45%;

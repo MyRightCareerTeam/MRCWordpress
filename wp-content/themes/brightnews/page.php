@@ -21,8 +21,8 @@
 			<div id="slide-up" onClick="editor_up();"></div>
 		  </div>
           <div id="editor-container">
-          <div id="inner-editor"></div>  
-            <script type="text/javascript">CKEDITOR.replace(document.getElementById('inner-editor'));</script>
+          <div id="innerEditor"></div>  
+            <script type="text/javascript">CKEDITOR.replace(document.getElementById('innerEditor'));</script>
             <button onclick="saveEditor(<?php global $post; echo $post->ID; ?>)">Save Document</button></div>
         </div>
         <div id="left-control-pane">
