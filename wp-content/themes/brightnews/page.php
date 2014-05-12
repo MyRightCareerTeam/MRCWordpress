@@ -16,6 +16,7 @@
       </div>
       <div id="control-pane">
         <div id="menu">
+          <div id="saveContainer"></div>
           <button id="saveButton" onclick="saveEditor(<?php global $post; echo $post->ID; ?>)">Save Document</button>
         </div>
         <div id="editor">

@@ -47,8 +47,10 @@
 	background-color: #4069E6;
 	height: 5%;
 	width: 100%;
+	left: 0;
 	top: 0;
 	z-index: 1;
+	position: fixed;
 }
 
 #left-control-pane,
@@ -139,8 +141,10 @@
 	border-top-left-radius: 10px;
 }
 
-#saveButton{
-	z-index: 5;
+#saveContainter{
+	width: 200px;
+	height: 150px;
+	background-color: black;
 }
 
 #slide-down{
