@@ -48,6 +48,7 @@
 	height: 5%;
 	width: 100%;
 	top: 0;
+	z-index: 1;
 }
 
 #left-control-pane,
@@ -73,7 +74,7 @@
 #right-menu{
 	background-color:#4069E6;
 	height: 100%;
-	width: 95%;
+	width: 45%;
 	z-index: 4;
 }
 
@@ -112,10 +113,13 @@
 	width: 33%;
 	height: 50%;
 	background-color: #4069E6;
-	z-index: 3;
+	left: 33.5%;
     bottom: 0;
-    left: 33%;
     right: 0;
+}
+
+#innerEditor{
+	height: 100%;
 }
 
 #editor-container{
@@ -135,6 +139,10 @@
 	border-top-left-radius: 10px;
 }
 
+#saveButton{
+	z-index: 5;
+}
+
 #slide-down{
 	background-color: #1C2F66;
 	height: 100%;
@@ -149,6 +157,15 @@
 	width: 49%;
 	float: right;
 	border-top-right-radius: 10px;
+}
+
+.right-button{
+	position: relative;
+	float: right;
+	width: 97%;
+	height: 45px;
+	margin: 5px;
+	background-color: #1C2F66;
 }
 
 
