@@ -8,7 +8,7 @@
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/editor.js"></script>
     <meta name="viewport" content="width=device-width">
   </head>
-  <body>
+  <body onload="loadData(<?php global $post; echo $post->ID; ?>)">
       <div id="content-pane">
         <div id="content">
           <?php echo $post->post_content ?>
