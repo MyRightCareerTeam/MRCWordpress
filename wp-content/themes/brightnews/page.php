@@ -16,7 +16,6 @@
       </div>
       <div id="control-pane">
         <div id="menu">
-          <div id="saveContainer"></div>
           <button id="saveButton" onclick="saveEditor(<?php global $post; echo $post->ID; ?>)">Save Document</button>
         </div>
         <div id="editor">
@@ -26,7 +25,16 @@
 		  </div>
           <div id="editor-container">
           <div id="innerEditor"></div>  
-            <script type="text/javascript">CKEDITOR.replace(document.getElementById('innerEditor'));</script>
+            <script type="text/javascript">
+              CKEDITOR.replace( document.getElementById('innerEditor'), {
+              toolbar: [
+              { name: 'document', items: [ 'NewPage', '-', 'Templates' ] }, // Defines toolbar group with name (used to create voice label) and items in 3 subgroups.
+              [ 'Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord'],      // Defines toolbar group without name.
+             // '/',                                          // Line break - next group will be placed in new line.
+              { name: 'basicstyles', items: [ 'Bold', 'Italic', 'Underline'] }
+                ]
+                });
+            </script>
           </div>
         </div>
         <div id="left-control-pane">
