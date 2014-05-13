@@ -171,6 +171,15 @@ function brightnews_widgets_init() {
 		'before_title' => '',
 		'after_title' => '',
 	) );
+	register_sidebar( array(
+		'name' => __( 'Collapsible menu', 'brightnews' ),
+		'id' => 'sidebar-8',
+		'description' => __( 'Collapsible menu on the left', 'brightnews' ),
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => '',
+	) );
 }
 add_action( 'widgets_init', 'brightnews_widgets_init' );
 
@@ -381,4 +390,11 @@ add_shortcode( 'highlight', 'brightnews_highlight_shortcode' );
 function brightnews_image_shortcode($atts, $content = null){
 return '<img src="'.$atts['src'].'" alt="" />';
 }
-add_shortcode('image','brightnews_image_shortcode'); ?>
+add_shortcode('image','brightnews_image_shortcode'); 
+
+
+add_action('template_redirect','custom_theme_files');
+function custom_theme_files() {
+	wp_enqueue_script('jquery');
+}
+?>
