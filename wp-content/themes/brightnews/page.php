@@ -1,7 +1,7 @@
 <?php?><!DOCTYPE html>
 <html>
   <head>
-    <title>MyRightCareer</title>
+    <title><?php wp_title( '|', true, 'right' ); ?></title>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/custom.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/mobile.js"></script>
@@ -12,21 +12,22 @@
   <body>
       <div id="content-pane">
         <div id="content">
-          <?php echo '<p>Hello World</p>';?></div>
+          <?php echo $post->post_content ?>
+        </div>
       </div>
       <div id="control-pane">
         <div id="menu">
-			
 		</div>
+        <button id="saveButton" onclick="saveEditor(<?php global $post; echo $post->ID; ?>)">Save Document</button>
         <div id="editor">
           <div id="editor-button">
 			<div id="slide-down" onClick="editor_down();"></div>
 			<div id="slide-up" onClick="editor_up();"></div>
 		  </div>
           <div id="editor-container">
-          <div id="inner-editor"></div>  
-            <script type="text/javascript">CKEDITOR.replace(document.getElementById('inner-editor'));</script>
-            <button onclick="saveEditor(<?php global $post; echo $post->ID; ?>)">Save Document</button></div>
+          <div id="innerEditor"></div>  
+            <script type="text/javascript">CKEDITOR.replace(document.getElementById('innerEditor'));</script>
+          </div>
         </div>
         <div id="left-control-pane">
           <div id="slide-left" onClick="show_left();"></div>
@@ -40,11 +41,16 @@
 			<?php dynamic_sidebar( 'sidebar-8' ); ?>
 			<?php } ?>
 		  </div>
+          </div>
         </div>
         <div id="right-control-pane">
           <div id="slide-right" onClick="show_right();"></div>
-          <div id="right-menu"></div>
+          <div id="right-menu">
+            <button class="right-button"></button>
+            <button class="right-button"></button>
+            <button class="right-button"></button>
+            <button class="right-button"></button>
+          </div>
         </div>
-    </div>
   </body>
 </html>

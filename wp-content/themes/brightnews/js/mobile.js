@@ -43,8 +43,8 @@ function editor_up() {
 	else {
 		console.debug("Wrong height: " + editorSize);
 	}
-	
-	document.getElementById("inner-editor").resize("95%", "100%");
+	CKEDITOR.instances.innerEditor.resize(editor.offsetWidth, editor.offsetHeight - 30);
+	editor.offsetWidth
 }
 
 function editor_down() {
@@ -62,8 +62,8 @@ function editor_down() {
 	else {
 		console.debug("Wrong height: " + editorSize);
 	}
-	
-	document.getElementById("inner-editor").resize("95%", "100%");
+
+	CKEDITOR.instances.innerEditor.resize(editor.offsetWidth, editor.offsetHeight - 30);
 }
 
 function moveMenu(item, x) {

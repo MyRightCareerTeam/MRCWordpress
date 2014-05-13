@@ -47,7 +47,10 @@
 	background-color: #4069E6;
 	height: 5%;
 	width: 100%;
+	left: 0;
 	top: 0;
+	z-index: 1;
+	position: fixed;
 }
 
 #left-control-pane,
@@ -73,7 +76,7 @@
 #right-menu{
 	background-color:#4069E6;
 	height: 100%;
-	width: 95%;
+	width: 45%;
 	z-index: 4;
 }
 
@@ -112,11 +115,13 @@
 	width: 33%;
 	height: 50%;
 	background-color: #4069E6;
-	z-index: 3;
+	left: 33.5%;
     bottom: 0;
-    left: 33%;
     right: 0;
-    resize: horizontal;
+}
+
+#innerEditor{
+	height: 100%;
 }
 
 #editor-container{
@@ -128,12 +133,18 @@
 
 #editor-button{
 	background-color: gray;
-	height: 5%;
+	height: 30px;
 	width: 10%;
 	position: relative;
 	left: 45%;
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
+}
+
+#saveContainter{
+	width: 200px;
+	height: 150px;
+	background-color: black;
 }
 
 #slide-down{
@@ -313,6 +324,15 @@
 .selectnav {
   display: none;
 } 
+
+.right-button{
+	position: relative;
+	float: right;
+	width: 97%;
+	height: 45px;
+	margin: 5px;
+	background-color: #1C2F66;
+}
 
 .dcjq-vertical-mega-menu ul, .dcjq-vertical-mega-menu ul li {list-style: none;}
 .dcjq-vertical-mega-menu ul.menu {position: relative; padding: 0; margin: 0;}
