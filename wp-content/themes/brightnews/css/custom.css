@@ -426,7 +426,7 @@
   padding: 6px 15px;
 }
 .dcjq-vertical-mega-menu {
-  width: 200px;
+  width: 100%;
 }
 .dcjq-vertical-mega-menu > ul > li {
   cursor: pointer;
