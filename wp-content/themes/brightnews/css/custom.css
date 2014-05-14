@@ -61,22 +61,22 @@
 	width: 33%;
 	height: 100%;
 	top: 0;
-    bottom: 0;
+  bottom: 0;
 }
 
 #left-control-pane{	
-    left: 1.65%;
+    left: 1%;
 }
 
 #right-control-pane{
-    right: 1.65%;
+    right: 1%;
 }
 
 #left-menu,
 #right-menu{
 	background-color:#4069E6;
 	height: 100%;
-	width: 45%;
+	width: 47%;
 	z-index: 4;
 }
 
@@ -92,7 +92,7 @@
 #slide-right{
 	background-color:#1C2F66;
 	height: 10%;
-	width: 15px;
+	width: 5%;
 	position: relative;
 	top: 45%;
 }
