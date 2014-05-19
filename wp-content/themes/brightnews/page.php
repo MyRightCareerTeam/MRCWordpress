@@ -41,15 +41,10 @@
         <div id="left-control-pane">
           <div id="slide-left" onClick="show_left();"></div>
           <div id="left-menu">
-			<!--
-			<nav id="main-navigation">
-				<div class="navigation-pattern"></div>
-				<?php wp_nav_menu( array( 'menu_id'=>'nav', 'theme_location'=>'main-navigation' ) ); ?>
-			</nav> -->
-			       <?php if ( is_active_sidebar( 'sidebar-8' ) ) { ?>
-			       <?php dynamic_sidebar( 'sidebar-8' ); ?>
-			       <?php } ?>
-		      </div>
+			    <?php if ( is_active_sidebar( 'sidebar-8' ) ) {
+			    dynamic_sidebar( 'sidebar-8' );
+			    } ?>
+		    </div>
         </div>
         <div id="right-control-pane">
           <div id="slide-right" onClick="show_right();"></div>
