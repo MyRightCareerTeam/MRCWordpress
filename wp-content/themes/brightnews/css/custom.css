@@ -480,7 +480,7 @@
 /* Sub menu */
 .dcjq-vertical-mega-menu ul ul {
   padding: 0;
-  display: none;
+  /*display: none;*/
 }
 .dcjq-vertical-mega-menu ul ul a {
   background: #efefef;
