@@ -434,7 +434,7 @@
   padding: 6px 15px;
 }
 .dcjq-vertical-mega-menu {
-  width: 200px;
+  width: 100%;
 }
 .dcjq-vertical-mega-menu > ul > li {
   cursor: pointer;
@@ -487,7 +487,7 @@
 /* Sub menu */
 .dcjq-vertical-mega-menu ul ul {
   padding: 0;
-  display: none;
+  /*display: none;*/
 }
 .dcjq-vertical-mega-menu ul ul a {
   background: #efefef;
