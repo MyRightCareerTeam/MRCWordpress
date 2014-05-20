@@ -72,11 +72,11 @@
 }
 
 #left-control-pane{	
-    left: 1%;
+    left: 2%;
 }
 
 #right-control-pane{
-    right: 1%;
+    right: 2%;
 }
 
 #left-menu,
@@ -100,7 +100,7 @@
 #slide-right{
 	background-color:#1C2F66;
 	height: 10%;
-	width: 5%;
+	width: 8%;
 	position: relative;
 	top: 45%;
 }
