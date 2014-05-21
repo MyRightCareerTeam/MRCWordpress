@@ -42,6 +42,11 @@ function loadData(page_id)
   	}
 	xmlhttp.open("GET","wp-content/themes/brightnews/get-text-wpdb.php?page_id="+page_id.toString()+"&user_id=2147483647",true);
 	xmlhttp.send();
-	
+	console.log("Example");
 };
+
+  function putData(text)
+  {
+    CKEDITOR.instances.innerEditor.setData(text);
+  };
 

@@ -54,7 +54,7 @@
 }
 
 #menu button{
-  width: 10%;
+  width: 15%;
   height: 95%;
   position: relative;
   margin: 1px;
@@ -72,18 +72,18 @@
 }
 
 #left-control-pane{	
-    left: 1%;
+    left: 2%;
 }
 
 #right-control-pane{
-    right: 1%;
+    right: 2%;
 }
 
 #left-menu,
 #right-menu{
 	background-color:#4069E6;
 	height: 100%;
-	width: 47%;
+	width: 50%;
 	z-index: 4;
 }
 
@@ -99,7 +99,7 @@
 #slide-right{
 	background-color:#1C2F66;
 	height: 10%;
-	width: 5%;
+	width: 10%;
 	position: relative;
 	top: 45%;
 }
